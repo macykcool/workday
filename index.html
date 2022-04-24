@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -29,17 +30,15 @@
       <p id="currentDay" class="lead"></p>
       <!-- current date will go here-->
     </header>
-
     <div class="container">
+      <!-- gave each hour in a div  -->
+      <div class="row" id="block-9">
+           <h3 class="hour col-2">9 AM</h3>
+            <textarea class="description col-9" id="input-9"></textarea>
+            <button class="saveBtn col-1" id="btn-9"><i class="fas fa-save" value="9"></i></button>
+            </div>
 
-      <div class="time-block row" id="block-9">
-        <p class="hour">9</p>
-        <input class="textarea" id="input-9"/>
-        <button class="saveBtn" value="9" id="btn-9" >icon</button>
-        </div>
-
-  
-          <div class="time-block row" id="block-10">
+            <!-- <div class="time-block row" id="block-10">
             <p class="hour">10</p>
             <input class="textarea" id="input-10"/>
             <button class="saveBtn" value="10" id="btn-10" >icon</button>
@@ -60,41 +59,35 @@
                 <div class="time-block row" id="block-13">
                   <p class="hour">1</p>
                   <input class="textarea" id="input-13"/>
-                  <button class="saveBtn" value="13" id="btn-13" >icon</button>
+                  <button class="saveBtn" value="1" id="btn-13" >icon</button>
                   </div>
                   
                   <div class="time-block row" id="block-14">
                     <p class="hour">2</p>
                     <input class="textarea" id="input-14"/>
-                    <button class="saveBtn" value="14" id="btn-14" >icon</button>
-                    </div
+                    <button class="saveBtn" value="2" id="btn-14" >icon</button>
+                  </div>
                     
-                    ><div class="time-block row" id="block-15">
+                    <div class="time-block row" id="block-15">
                       <p class="hour">3</p>
                       <input class="textarea" id="input-15"/>
-                      <button class="saveBtn" value="15" id="btn-15" >icon</button>
+                      <button class="saveBtn" value="3" id="btn-15" >icon</button>
                       </div>
 
                       <div class="time-block row" id="block-16">
                         <p class="hour">4</p>
                         <input class="textarea" id="input-16"/>
-                        <button class="saveBtn" id="btn-16"  value="16">icon</button>
+                        <button class="saveBtn" id="btn-16"  value="4">icon</button>
                         </div>
                         
                         <div class="time-block row" id="block-17">
                         <p class="hour">5</p>
                         <input class="textarea" id="input-17"/>
-                        <button class="saveBtn" id="btn-17" value="17">icon</button>
-                        </div>
+                        <button class="saveBtn" id="btn-17" value="5">icon</button>
+                        </div> -->
 
- 
-      </div>
-      <!-- Timeblocks go here -->
-      <!-- each hour is own div with three elements. time input and save  -->
-
-      
-
-    </div>
+      </div> <!-- each hour is own div with three elements. time input and save  -->
+   
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
