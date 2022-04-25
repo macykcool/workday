@@ -119,23 +119,24 @@ btn17.addEventListener("click", function(event){
 })
 
 
-// //css time block
-// var colorTime = function() {
-//     var currentHour = moment().hour();
-//     console.log(currentHour);
-//     for (var i = 0; i < btn9.value; i++) {
-//         console.log(btn9.value);
 
-//         if (btn9.value < currentHour) {
-//             textarea.classList.add("past");
 
-//         } else if (btn9.value > currentHour) {
-//             textarea.classList.add("future");
-//         } else {
-//             textarea.classList.add("present");
-//         } 
-//     }
-// };
+//css time block
+var colorTime9 = function() {
+    var currentHour = moment().hour();
+    console.log(currentHour);
+    for (var i = 0; i < btn9.value; i++) {
+        console.log(btn9.value);
 
-// colorTime();
-// // // 5. test by refreshing page and data is still there and colors are working correctly
+        if (btn9.value < currentHour) {
+            input9.classList.add("past");
+
+        } else if (btn9.value > currentHour) {
+            input9.classList.add("future");
+        } else {
+            input9.classList.add("present");
+        } 
+    }
+};
+
+colorTime9();
